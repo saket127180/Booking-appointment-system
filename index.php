@@ -1,0 +1,242 @@
+<?php
+include("connection.php");
+
+?>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="remixicons/fonts/remixicon.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Pearl Barber Salon - Bootstrap Template</title>
+</head>
+
+<body id="home" data-bs-spy="scroll" data-bs-target=".navbar">
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">TalentServe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+        </ul>
+        <a href="#booking" class="btn btn-outline-brand ms-lg-4">Book Appointment</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- // NAVBAR -->
+
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Education has limit but learning not! ...</h1>
+          <p>Learn from the experts from top companies and Get placed with 25LPA</p>
+          <a href="#" class="btn btn-brand">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- // HERO -->
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5">
+          <img src="img/employee.jpeg" alt="">
+          <h1>Start your Dream Career with Us!</h1>
+        </div>
+        <div class="col-lg-4 offset-lg-1">
+          <h5>About us</h5>
+          <h3>
+            "Unleash your creative potential alongside our exceptional team of world-class creators and dreamers."
+          </h3>
+          <p>Our approach is straightforward: recruit a diverse, enthusiastic team and cultivate an empowering culture
+            to maximize your potential.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- // ABOUT -->
+
+  <!-- BLOG -->
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro text-center">
+          <h6>Blogs</h6>
+          <h1>Latest from our Mentors</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <article class="blog-post">
+            <img src="img/eq.jpeg" alt="">
+            <div class="date">
+              <div>
+                <div class="day">2</div>
+                <div class="year">June, 2023</div>
+              </div>
+
+            </div>
+            <h4 class="mt-4 ">Emotional Intelligence (EQ)</h4>
+            <p class="my-3">Technical skills alone won't be enough to thrive in the personal and professional spheres of
+              today's fast paced, interconnected world. Emotional Intelligence (EQ) has emerged as a critical factor for
+              success, happiness, and fulfilling relationships. We're going to take a look at the concepts of EQ, its
+              components and how they can affect various aspects of our lives on this blog.
+              Understanding Emotional Intelligence: The emotional intelligence concept was born from the research of
+              psychologists Peter Salovey and John Mayer, who describe emotions as being able to be accurately
+              recognized, understood, managed and expressed. It includes awareness of oneself,and </p>
+            <a href="https://www.linkedin.com/pulse/emotional-intelligence-eq-saket-kandhari-%3FtrackingId=cd5hOTk%252B%252FI0jtNcGgu5QQg%253D%253D/?trackingId=cd5hOTk%2B%2FI0jtNcGgu5QQg%3D%3D"
+              class="link-more">Know More <i class="ri-arrow-right-line icon"></i></a>
+          </article>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <article class="blog-post">
+            <img src="img/data_science.jpeg" alt="">
+            <div class="date">
+              <div>
+                <div class="day">3</div>
+                <div class="year">June, 2023</div>
+              </div>
+
+            </div>
+            <h4 class="mt-4 ">Empowering Real-Time Collaboration: The Role of Data Science in Seamless Application
+              Workflows</h4>
+            <p class="my-3">Cooperation is becoming a key element for the productivity and innovation of today's
+              interlinking world. Realtime collaboration between individuals and teams in applications was transformed
+              by advances in data science and technology.</p>
+            <a href="https://www.linkedin.com/pulse/empowering-real-time-collaboration-role-data-science-saket-kandhari-%3FtrackingId=4iqLaZETD6g%252BRKCds9xlKA%253D%253D/?trackingId=4iqLaZETD6g%2BRKCds9xlKA%3D%3D"
+              class="link-more">Know More <i class="ri-arrow-right-line icon"></i></a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- // BLOG -->
+
+
+  <!-- BOOKING -->
+  <section id="booking">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <form action="https://formsubmit.co/sktkandhari2@gmail.com" class="row" method="post">
+            <form action="connection.php" method="psot">
+            <div class="col-12 mb-6">
+              <h1>Book Appointment</h1>
+              <p>Being on time to appointments and meetings is a phase of self-discipline and an evidence of
+                self-respect. Punctuality is a courteous compliment the intelligent person pays to his associates</p>
+            </div>
+            <div class="form-group col-12">
+              <input type="text" class="form-control" name="fullname" placeholder="Full Name" required autocomplete="off">
+            </div>
+            <div class="form-group col-12">
+              <input type="email" class="form-control" name="email"  placeholder="Email Address" required autocomplete="off">
+            </div>
+            <div class="from-group col-12">
+              <input type="datetime-local" class="form-control" name="date"  placeholder="DD/MM/YYYY" required autocomplete="off">
+            </div>
+            <div class="form grop col-12">
+              <textarea name="message" class="form-control"  placeholder="Message" cols="30" rows="5" autocomplete="off"></textarea>
+            </div>
+            <div class="form-group col-12 mt-4"> 
+              <button type="submit" name="submit" class="btn btn-brand">Submit</button>
+            </div>
+            </form>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- // BOOKING -->
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <img class="logo mb-3" src="img/logo.png" alt="">
+            <p>Our approach is straightforward: recruit a diverse, enthusiastic team and cultivate an empowering culture
+              to maximize your potential.</p>
+              <div class="social-links">
+                <a href="https://www.facebook.com/talentserve"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.talentserve.org/"><i class="ri-google-fill"></i></a>
+                <a href="https://www.youtube.com/@talentserve3452"><i class="ri-youtube-fill"></i></a>
+              </div>
+          </div>
+          <div class="col-lg-3">
+            <h4>Working Hours</h4>
+            <div>
+              <h6>Monday - Saturday</h6>
+              <p>09:00 am - 09:00 pm</p>
+            </div>
+              <h6>Sunday</h6>
+              <p>We are closed</p>
+            </div>
+
+          <div class="col-lg-3">
+            <h4>Contact</h4>
+            <p><i class="ri-map-pin-2-fill"></i>
+            <span>C-103, 1st Floor, Shree Sai Tower,
+              CHSL, Sodawala Lane,
+              Near Sterling Hospital,
+              Borivali (W), Mumbai-400092</span>
+              </p>
+              <p>
+                <i class="ri-mail-fill"></i>
+                <span>
+                  hello@talentserve.org
+                  </span>
+                  </p>
+            </div>
+            </dsiv>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</script>
+
+
+</body>
+
+</html>
+
+
